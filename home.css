@@ -1,11 +1,16 @@
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .first{
     display: flex;
 background-color: white;
 /* position: fixed; */
-/* @media screen and (max-width:414px) {
-    font-size: 45px;
-} */
+@media screen and (max-width:414px) {
+       flex-direction: column;
+    gap: 15px;
+}
 }
 
 
@@ -38,8 +43,8 @@ font-size: 22px;
 padding-left: 49px;
   display: inline-block;
 @media screen and (max-width:414px) {
-    float: left;
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 }
 
